@@ -16,7 +16,7 @@
         TextBox1.Text += "Time Traveled: " & time & " hours" & vbCrLf
         TextBox1.Text += vbCrLf
         TextBox1.Text += "Hours" & vbTab & "Distance Traveled" & vbCrLf
-        TextBox1.Text += New String("-", 45) & vbCrLf
+        TextBox1.Text += New String("-", 46) & vbCrLf
 
         ' Get and display distance totals
         For i As Integer = 1 To time
